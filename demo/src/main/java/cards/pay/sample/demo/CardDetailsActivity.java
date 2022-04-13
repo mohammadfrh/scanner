@@ -15,9 +15,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-
 import java.lang.reflect.Method;
-
 import cards.pay.paycardsrecognizer.sdk.Card;
 import cards.pay.paycardsrecognizer.sdk.ScanCardIntent;
 import cards.pay.paycardsrecognizer.sdk.ScanCardIntent.CancelReason;
