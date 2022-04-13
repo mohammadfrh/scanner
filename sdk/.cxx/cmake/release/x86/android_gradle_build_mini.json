@@ -1,0 +1,60 @@
+{
+  "buildFiles": [
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\CMakeLists.txt",
+    "D:\\dev\\android\\sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
+    "D:\\dev\\android\\sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\armneon2x86sse\\CMakeLists.txt",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\armneon2x86sse\\cmake\\Config.cmake.in",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\eigen\\CMakeLists.txt",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\protobuf\\CMakeLists.txt",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\caffe\\CMakeLists.txt",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\libyuv\\CMakeLists.txt",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\crossplatform\\CMakeLists.txt",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\OpenCVConfig.cmake",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\abi-x86\\OpenCVConfig.cmake",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\abi-x86\\OpenCVModules.cmake",
+    "D:\\dev\\android\\project\\PayCards_Android\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\abi-x86\\OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\dev\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\" clean"
+  ],
+  "buildTargetsCommand": "D:\\dev\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "caffe-Release-x86": {
+      "artifactName": "caffe",
+      "buildCommand": "D:\\dev\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\" caffe",
+      "abi": "x86",
+      "output": "D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\\caffe\\libcaffe.a",
+      "runtimeFiles": []
+    },
+    "libyuv-Release-x86": {
+      "artifactName": "libyuv",
+      "buildCommand": "D:\\dev\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\" libyuv",
+      "abi": "x86",
+      "output": "D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\\libyuv\\liblibyuv.a",
+      "runtimeFiles": []
+    },
+    "crossplatform-Release-x86": {
+      "artifactName": "crossplatform",
+      "buildCommand": "D:\\dev\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\" crossplatform",
+      "abi": "x86",
+      "output": "D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\\crossplatform\\libcrossplatform.a",
+      "runtimeFiles": []
+    },
+    "cardrecognizer-Release-x86": {
+      "artifactName": "cardrecognizer",
+      "buildCommand": "D:\\dev\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\" cardrecognizer",
+      "abi": "x86",
+      "output": "D:\\dev\\android\\project\\PayCards_Android\\sdk\\build\\intermediates\\cmake\\release\\obj\\x86\\libcardrecognizer.so",
+      "runtimeFiles": []
+    },
+    "protobuf-Release-x86": {
+      "artifactName": "protobuf",
+      "buildCommand": "D:\\dev\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\" protobuf",
+      "abi": "x86",
+      "output": "D:\\dev\\android\\project\\PayCards_Android\\sdk\\.cxx\\cmake\\release\\x86\\protobuf\\libprotobuf.a",
+      "runtimeFiles": []
+    }
+  }
+}
