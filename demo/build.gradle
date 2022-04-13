@@ -3,6 +3,18 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
+    signingConfigs {
+        release {
+            storeFile file(RELEASE_STORE_FILE)
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+
+            // Optional, specify signing versions used
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
     defaultConfig {
         applicationId "cards.pay.sample.demo"
         minSdkVersion rootProject.ext.minSdkVersion
@@ -46,4 +58,5 @@ dependencies {
     implementation "com.android.support:gridlayout-v7:28.0.0"
     implementation "com.android.support:design:28.0.0"
     testImplementation "junit:junit:4.13.2"
+
 }

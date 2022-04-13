@@ -1,0 +1,5 @@
+ninja: Entering directory `D:\dev\android\project\PayCards_Android\sdk\.cxx\cmake\debug\x86'
+[1/4] Building CXX object crossplatform/CMakeFiles/crossplatform.dir/jniImpl/TorchDelegate.cpp.o
+[2/4] Building CXX object crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CV/warp.cpp.o
+[3/4] Linking CXX static library crossplatform\libcrossplatform.a
+[4/4] Linking CXX shared library D:\dev\android\project\PayCards_Android\sdk\build\intermediates\cmake\debug\obj\x86\libcardrecognizer.so
