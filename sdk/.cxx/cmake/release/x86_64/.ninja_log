@@ -124,3 +124,5 @@
 61868	71918	671534960	crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CV/warp.cpp.o	bc3ab3c8c6b48541
 71918	72166	671534961	crossplatform/libcrossplatform.a	f2854b332a08fdd8
 72166	73305	671534962	D:/dev/android/project/PayCards_Android/sdk/build/intermediates/cmake/release/obj/x86_64/libcardrecognizer.so	546f772f1caf87c
+0	60	0	clean	d7ca90f3e9c63dce
+0	17	0	clean	d7ca90f3e9c63dce

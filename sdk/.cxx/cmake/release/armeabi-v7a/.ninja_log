@@ -128,3 +128,5 @@
 55249	67721	671534731	crossplatform/CMakeFiles/crossplatform.dir/CrossPlatform/CV/warp.cpp.o	80d45b5fbe4233e7
 67721	67972	671534731	crossplatform/libcrossplatform.a	ae10fddd24938c7c
 67972	69169	671534733	D:/dev/android/project/PayCards_Android/sdk/build/intermediates/cmake/release/obj/armeabi-v7a/libcardrecognizer.so	d5fdda7e93fca26d
+0	57	0	clean	d7ca90f3e9c63dce
+0	16	0	clean	d7ca90f3e9c63dce
